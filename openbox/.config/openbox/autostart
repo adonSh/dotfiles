@@ -1,0 +1,31 @@
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+# If you want to use GNOME config tools...
+#
+#if test -x /usr/lib/x86_64-linux-gnu/gnome-settings-daemon >/dev/null; then
+#  /usr/lib/x86_64-linux-gnu/gnome-settings-daemon &
+#elif which gnome-settings-daemon >/dev/null 2>&1; then
+#  gnome-settings-daemon &
+#fi
+
+# If you want to use XFCE config tools...
+#
+#xfce-mcs-manager &
+
+#/home/adon/.screenlayout/2.sh
+feh --bg-fill ~/pictures/wallpaper/feet.jpg
+#feh --randomize --bg-fill ~/pictures/wallpaper/ 
+tint2 &
+sleep 5s && conky -c $HOME/.config/conky/cpus &
+sleep 5s && conky -c $HOME/.config/conky/mpd &
+setxkbmap -option caps:none 
+pnmixer &
+xset -dpms && xset s off
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+xflux -z 02155 > ~/.xflux
+#notify-send "$(cat ~/.xflux)"
+#date >> ~/.xflux

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<item label="Terminal Emulator">
+			<action name="Execute">
+				<execute>urxvt</execute>
+			</action>
+		</item>
+		<item label="Firefox">
+			<action name="Execute">
+				<execute>firefox</execute>
+			</action>
+		</item>
+		<item label="Chrome">
+			<action name="Execute">
+				<execute>google-chrome</execute>
+			</action>
+		</item>
+		<item label="Spotify">
+			<action name="Execute">
+				<execute>spotify</execute>
+			</action>
+		</item>
+		<separator/>
+		<item label="Shuffle Music">
+			<action name="Execute">
+				<execute>ashuffle</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="/Debian"/>
+		<!-- This requires the presence of the 'menu' package to work -->
+		<menu id="root-menu-361340" label="Games">
+			<item label="Age of Mythology">
+				<action name="Execute">
+					<execute>wine /home/adon/.wine/drive_c/Program\ Files/Microsoft\ Games/Age\ of\ Mythology/aom.exe +noIntroCinematics</execute>
+				</action>
+			</item>
+			<item label="CODT">
+				<action name="Execute">
+					<execute>codt</execute>
+				</action>
+			</item>
+			<item label="Ladybug">
+				<action name="Execute">
+					<execute>ladybug</execute>
+				</action>
+			</item>
+			<item label="Oolite">
+				<action name="Execute">
+					<execute>oolite</execute>
+				</action>
+			</item>
+			<item label="Shootout Inc.">
+				<action name="Execute">
+					<execute>/home/adon/downloads/games/shootout/nw</execute>
+				</action>
+			</item>
+			<item label="SuperHotline Miami">
+				<action name="Execute">
+					<execute>nw</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="client-list-menu"/>
+		<separator/>
+		<item label="ObConf">
+			<action name="Execute">
+				<execute>obconf</execute>
+			</action>
+		</item>
+		<item label="ObMenu">
+			<action name="Execute">
+				<execute>obmenu</execute>
+			</action>
+		</item>
+		<item label="Reconfigure">
+			<action name="Reconfigure"/>
+		</item>
+		<item label="Restart">
+			<action name="Restart"/>
+		</item>
+		<separator/>
+		<item label="Exit">
+			<action name="Exit"/>
+		</item>
+		<item label="Reboot">
+			<action name="Execute">
+				<execute>systemctl reboot</execute>
+			</action>
+		</item>
+		<item label="Suspend">
+			<action name="Execute">
+				<execute>systemctl suspend</execute>
+			</action>
+		</item>
+		<item label="Shut Down">
+			<action name="Execute">
+				<execute>systemctl poweroff</execute>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>

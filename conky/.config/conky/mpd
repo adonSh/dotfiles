@@ -1,0 +1,35 @@
+-- vim: syntax=lua
+
+conky.config = {
+	background = false,
+	use_xft = true,
+	font = 'monospace:size=9',
+	xftalpha = 1,
+	update_interval = 1.0,
+	total_run_times = 0,
+	own_window = true,
+	own_window_transparent = true,
+	own_window_type = 'desktop',
+	own_window_title = 'mpdconk',
+	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+	double_buffer = true,
+	minimum_width = 200,
+	minimum_height = 100,
+	draw_outline = false,
+	draw_borders = false,
+	draw_graph_borders = true,
+	default_color = 'white',
+	alignment = 'top_right',
+	draw_shades = false,
+	gap_y = 25 ,
+	gap_x = 10
+}
+
+conky.text = [[
+${if_mpd_playing}${color }
+$mpd_artist
+$mpd_title
+$mpd_bar
+$mpd_elapsed/$mpd_length
+$endif
+]]
