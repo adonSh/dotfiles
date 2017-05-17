@@ -3,8 +3,8 @@ audio_device_state:1:mpd_pulse_out
 audio_device_state:0:mpd_jack_out
 audio_device_state:0:HTTP Stream
 state: play
-current: 69
-time: 104.257000
+current: 70
+time: 120.256000
 random: 0
 repeat: 0
 single: 0
@@ -83,4 +83,5 @@ playlist_begin
 67:Rolling_Stones_the/Some Girls/02 When The Whip Comes Down.m4a
 68:Chance_the_Rapper/Acid Rap/07 - Interlude (Thats Love) (Prod by Ludwig Gorransen) (DatPiff Exclusive).mp3
 69:Ray_Charles/The Birth Of Soul Vol 2/16 Ain't That Love.ogg
+70:Flaming_Lips_the/The Soft Bulletin/07. The Observer.ogg
 playlist_end
