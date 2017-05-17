@@ -2,7 +2,9 @@ sw_volume: 100
 audio_device_state:1:mpd_pulse_out
 audio_device_state:0:mpd_jack_out
 audio_device_state:0:HTTP Stream
-state: stop
+state: play
+current: 69
+time: 104.257000
 random: 0
 repeat: 0
 single: 0
@@ -11,4 +13,74 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
+0:UB40/Labour of Love/09 Version Girl.ogg
+1:Little_Feat/Waiting for Columbus/Disc 1 - 07 - Tripe Face Boogie.ogg
+2:Who_the/Whos Next/07 - The Who - Going Mobile.mp3
+3:Modest_Mouse/Building Nothing out of Something/11. Whenever You Breathe Out, I Breathe In (Positive Negative).ogg
+4:Sly_and_the_Family_Stone/Members Edition/08 Take My Advice.ogg
+5:Passengers/Original Soundtracks 1/07 Miss Sarajevo.m4a
+6:Broken_Bells/Broken Bells/10 - The Mall & Misery.mp3
+7:Howlin_Wolf/Moanin' in the Moonlight/01 Moanin' at Midnight.ogg
+8:Red_Clay_Ramblers_the/Hard Times/13 I'm a Long Time Travelling.ogg
+9:Beatles_the/Abbey Road/11 Mean Mr. Mustard.m4a
+10:Doors_the/Morrison Hotel/01 Roadhouse Blues.ogg
+11:Clash_the/Combat Rock/01 Know Your Rights.m4a
+12:Pavement/Westing (by Musket and Sextant)/03 - Maybe Maybe.ogg
+13:Derek_and_the_Dominoes/Layla and Other Assorted Love Songs (Deluxe Disc 2)/06 Matchbox (Live with Carl Perkins).ogg
+14:Weezer/Pinkerton/08 Pink Triangle.m4a
+15:Radiohead/The Bends/06 (Nice Dream).m4a
+16:Shins_the/Oh, Inverted World/04 Know Your Onion!.m4a
+17:Pixies/Doolittle/15 Gouge Away.m4a
+18:My_Bloody_Valentine/Isn't Anything/11 Nothing Much To Lose.m4a
+19:Little_Walter/Confessin' the Blues/07 Temperature.ogg
+20:Miguel_Gallego/Miguel Gallego - Rex Destiny and the Dicktations- King of the Doobs/Miguel Gallego - Rex Destiny and the Dicktations- King of the Doobs - 16 Elvis.ogg
+21:Chance_the_Rapper/Acid Rap/13 - Everythings Good (Good Ass Outro) (Prod by Cam for JUSTICE League) (DatPiff Exclusive).mp3
+22:John_Hammond/Solo/05. Look on Yonder Wall.ogg
+23:Television/Marquee Moon/07 Prove It.ogg
+24:Bob_Dylan/Dylan [Disc 1]/1-12 Maggie's Farm.m4a
+25:Maceo_Parker/Life on Planet Groove/08. Soul Power.ogg
+26:Velvet_Underground_the/The Velvet Underground & Nico/03. Femme Fatale.ogg
+27:Beatles_the/Yesterday and Today/02 I'm Only Sleeping.ogg
+28:Who_the/Live At Leeds/06 Substitute.m4a
+29:Jimi_Hendrix/Are You Experienced/10 Foxey Lady.ogg
+30:Paul_Simon/Graceland/08 Homeless.m4a
+31:Eagles_the/Their Greatest Hits/08 Take It To The Limit.m4a
+32:Minutemen/Double Nickels On The Dime/28 Themselves.m4a
+33:U2/Rattle And Hum/02 Van Diemen's Land.ogg
+34:Band_the/The Band/06 Whispering Pines.ogg
+35:R.E.M/Monster/04 I Don't Sleep, I Dream.m4a
+36:Paul_Simon/Graceland/11 All Around The World Or The Myth.m4a
+37:National_the/Alligator/06 Baby We_ll Be Fine.m4a
+38:Dinosawh/Dinosawh - Chaos Theory/Dinosawh - Chaos Theory - 02 Tide Rider.ogg
+39:Flaming_Lips_the/In a Priest Driven Ambulance/02 Unconsciously Screaming.ogg
+40:Strokes_the/Is This It_/08 Hard To Explain.m4a
+41:National_the/Boxer/05 Green Gloves.m4a
+42:Neil_Young/After the Gold Rush/03 Only Love Can Break Your Heart.ogg
+43:Meat_Puppets/Meat Puppets II/06. We're Here.ogg
+44:Spot_Collins/Birch Beer/Spot Collins -  Birch Beer - 08 Ossipee St..ogg
+45:Modest_Mouse/Good News For People Who Love Bad News/08 Bukowski.m4a
+46:Flaming_Lips_the/Yoshimi Battles the Pink Robots/11 Approaching Pavonis Mons By Balloon (Utopia Planitia).ogg
+47:Sleepy_Feet/Sleepy Feet - Sleepy Feet (demo)/Sleepy Feet - Sleepy Feet (demo) - 01 Eskimo Song.mp3
+48:Frownes_Van_Can't/Frownes/06 Telescope.mp3
+49:UB40/The Best Of UB40 - Volume Two/03 Kingston Town.m4a
+50:Chance_the_Rapper/Coloring Book/06 - Same Drugs.mp3
+51:Talking_Heads/Remain In Light/01 Born Under Punches (The Heat Goes On).ogg
+52:Beatles_the/Abbey Road/02 Something.m4a
+53:Spot_Collins/Birch Beer/Spot Collins -  Birch Beer - 02 Tall Drink of Water.ogg
+54:Police_the/Synchronicity (Remastered)/01 Synchronicity 1.m4a
+55:Clash_the/Combat Rock/11 Inoculated City.m4a
+56:Dave_Brubeck_Quartet/Time Further Out/05 Far More Drums.ogg
+57:Sonic_Youth/Goo/02 Tunic (Song For Karen).m4a
+58:Modest_Mouse/The Moon And Antarctica/08 Alone Down There.m4a
+59:Little_Feat/Feats Don't Fail Me Now/Little Feat - 04 - Down the Road.ogg
+60:Butthole_Surfers/Rembrandt Pussyhorse/02. Sea Ferring.ogg
+61:Erykah_Badu/Baduizm/11 Drama.ogg
+62:Walter_Mitty_and_His_Makeshift_Orchestra/Every Town Needs A Cowboy/06 Mickey Flynns.m4a
+63:Tribe_Called_Quest_a/The Low End Theory/10 Everything Is Fair.ogg
+64:Chris_Thile/Sleep With One Eye Open/16 If I Should Wander Back Tonight.ogg
+65:Replacements_the/Let It Be/03 We're Comin' Out.mp3
+66:Wilson_Pickett/The Very Best Of Wilson Pickett/06 I'm In Love.ogg
+67:Rolling_Stones_the/Some Girls/02 When The Whip Comes Down.m4a
+68:Chance_the_Rapper/Acid Rap/07 - Interlude (Thats Love) (Prod by Ludwig Gorransen) (DatPiff Exclusive).mp3
+69:Ray_Charles/The Birth Of Soul Vol 2/16 Ain't That Love.ogg
 playlist_end

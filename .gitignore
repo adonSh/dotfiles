@@ -1,1 +1,4 @@
 *.swp
+mpd/.config/mpd/log
+mpd/.config/mpd/pid
+mpd/.config/mpd/state
