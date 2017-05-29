@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/adon/sem4/comp20/comp20-ashapiro/messages'
-let g:netrw_dirhist_2='/home/adon/sem4/comp20/node-js-getting-started/node_modules'
-let g:netrw_dirhist_3='/home/adon/code/sins'
-let g:netrw_dirhist_4='/home/adon/code/daily'
-let g:netrw_dirhist_5='/home/adon/sem4/comp20/passnfold/public'
