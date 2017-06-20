@@ -323,6 +323,11 @@
         <direction>east</direction>
       </action>
     </keybind>
+    <keybind key="W-f">
+      <action name="Lower"/>
+      <action name="FocusToBottom"/>
+      <action name="Unfocus"/>
+    </keybind>
     <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
     <keybind key="A-Print">
       <action name="Execute">

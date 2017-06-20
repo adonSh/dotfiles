@@ -26,6 +26,6 @@ setxkbmap -option caps:none
 pnmixer &
 xset -dpms && xset s off
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
-xflux -z 02155 > ~/.xflux
+xflux -z 17837 > ~/.xflux
 #notify-send "$(cat ~/.xflux)"
 #date >> ~/.xflux
