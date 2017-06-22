@@ -323,6 +323,11 @@
         <direction>east</direction>
       </action>
     </keybind>
+    <keybind key="W-S-f">
+      <action name="Raise"/>
+      <action name="FocusToTop"/>
+      <action name="Focus"/>
+    </keybind>
     <keybind key="W-f">
       <action name="Lower"/>
       <action name="FocusToBottom"/>
