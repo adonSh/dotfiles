@@ -1,0 +1,45 @@
+## Repos For Apt ##
+
+# Debian Servers
+#deb http://ftp.us.debian.org/debian stretch main contrib non-free
+#deb http://ftp.debian.org/debian stretch-backports main contrib non-free
+#deb http://ftp.us.debian.org/debian stretch-updates main contrib non-free
+#deb-src http://ftp.us.debian.org/debian stretch main contrib non-free
+#deb-src http://ftp.us.debian.org/debian stretch-updates main contrib non-free
+#deb-src http://ftp.debian.org/debian stretch-backports main contrib non-free
+
+# Bloomsburg University (Bloomsburg, PA)
+deb http://mirrors.bloomu.edu/debian stretch main contrib non-free
+deb http://mirrors.bloomu.edu/debian stretch-updates main contrib non-free
+deb http://mirrors.bloomu.edu/debian stretch-backports main contrib non-free
+deb-src http://mirrors.bloomu.edu/debian stretch main contrib non-free
+deb-src http://mirrors.bloomu.edu/debian stretch-updates main contrib non-free
+deb-src http://mirrors.bloomu.edu/debian stretch-backports main contrib non-free
+
+# Massachusetts Institute of Technology (Cambridge, MA)
+#deb http://debian.csail.mit.edu/debian stretch main contrib non-free
+#deb http://debian.csail.mit.edu/debian stretch-updates main contrib non-free
+#deb http://debian.csail.mit.edu/debian stretch-backports main contrib non-free
+#deb-src http://debian.csail.mit.edu/debian stretch main contrib non-free
+#deb-src http://debian.csail.mit.edu/debian stretch-updates main contrib non-free
+#deb-src http://debian.csail.mit.edu/debian stretch-backports main contrib non-free
+
+# Worcester Poltechnic Institute (Worcester, MA)
+#deb http://mirrors.acm.wpi.edu/debian stretch main contrib non-free
+#deb http://mirrors.acm.wpi.edu/debian stretch-updates main contrib non-free
+#deb http://mirrors.acm.wpi.edu/debian stretch-backports main contrib non-free
+#deb-src http://mirrors.acm.wpi.edu/debian stretch main contrib non-free
+#deb-src http://mirrors.acm.wpi.edu/debian stretch-updates main contrib non-free
+#deb-src http://mirrors.acm.wpi.edu/debian stretch-backports main contrib non-free
+
+# Security Updates
+deb http://security.debian.org/ stretch/updates main contrib non-free
+
+# Debugging Packages
+deb http://debug.mirrors.debian.org/debian-debug stretch-debug main contrib non-free
+
+# Third Parties
+deb http://repository.spotify.com stable non-free
+deb https://cli-assets.heroku.com/branches/stable/apt ./
+deb http://dl.google.com/linux/musicmanager/deb/ stable main
+deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main

@@ -431,6 +431,11 @@
         <command>ashuffle</command>
       </action>
     </keybind>
+    <keybind key="A-r">
+      <action name="Execute">
+        <command>env MPD_HOST=m140 ashuffle</command>
+      </action>
+    </keybind>
     <!-- mpd bindings -->
     <keybind key="A-F12">
       <action name="Execute">
