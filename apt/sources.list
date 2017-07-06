@@ -43,3 +43,5 @@ deb http://repository.spotify.com stable non-free
 deb https://cli-assets.heroku.com/branches/stable/apt ./
 deb http://dl.google.com/linux/musicmanager/deb/ stable main
 deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
+deb http://download.videolan.org/pub/debian/stable/ /
+deb-src http://download.videolan.org/pub/debian/stable/ /
