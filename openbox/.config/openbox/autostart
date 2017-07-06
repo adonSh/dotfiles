@@ -20,12 +20,13 @@
 feh --bg-fill ~/pictures/wallpaper/feet.jpg
 #feh --randomize --bg-fill ~/pictures/wallpaper/ 
 tint2 &
-sleep 5s && conky -c $HOME/.config/conky/cpus &
-sleep 5s && conky -c $HOME/.config/conky/mpd &
-setxkbmap -option caps:none 
+urxvtd &
 pnmixer &
 xset -dpms && xset s off
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 xflux -z 17837 > ~/.xflux
+sleep 5s && conky -c $HOME/.config/conky/cpus &
+sleep 5s && conky -c $HOME/.config/conky/mpd &
+setxkbmap -option caps:none 
 #notify-send "$(cat ~/.xflux)"
 #date >> ~/.xflux
