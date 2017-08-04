@@ -1,0 +1,7 @@
+These are my dotfiles and configs.
+
+To easily install all configs at once, place in home directory (or wherever
+files are to be installed) and run install.sh. To remove all configs at once
+run the script with the '-u' flag.
+
+(NOTE: install.sh requires GNU stow)

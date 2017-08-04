@@ -22,7 +22,7 @@ hi ColorColumn ctermbg=74  " visible ColorColumn
 "set background=dark
 
 " INDENTATION RULES
-filetype indent on          " rules in ~/.vim/indent
+filetype indent on          " custom indentation rules
 set tabstop=8               " how many spaces is a tab
 set shiftwidth=8            " how far to shift text with < & >
 set noexpandtab             " tabs not spaces
