@@ -24,9 +24,9 @@ urxvtd &
 pnmixer &
 xset -dpms && xset s off
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
-xflux -z 17837 > ~/.xflux
+xflux -z 02144 > ~/.xflux
 sleep 5s && conky -c $HOME/.config/conky/cpus &
-sleep 5s && conky -c $HOME/.config/conky/mpd &
+sleep 9s && conky -c $HOME/.config/conky/mpd &
 setxkbmap -option caps:none 
 #notify-send "$(cat ~/.xflux)"
 #date >> ~/.xflux
