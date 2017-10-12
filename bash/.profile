@@ -17,15 +17,15 @@
 #fi
 
 # set PATH so it includes user's private bin if it exists
-#if [ -d "$HOME/bin" ] ; then
-#    PATH="$HOME/bin:$PATH"
-#fi
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
  
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-export PATH="/home/adon/bin:/sbin:/usr/sbin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
-export MANPATH="$HOME/.local/share/man:/usr/share/man:/usr/local/man:/usr/local/share/man"
+PATH="$PATH:/sbin:/usr/sbin:/usr/local/sbin"
+MANPATH="$MANPATH:$HOME/.local/share/man"
 set -o vi
 PS1='\u@\h:\w\$ '
