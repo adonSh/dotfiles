@@ -116,4 +116,3 @@ fi
 set -o vi
 PS1='\342\224\214\u:\w\$\n\342\225\260'
 #xrdb -merge /home/adon/.Xresources
-#PATH="$HOME/bin:/sbin:/usr/sbin:/usr/local/sbin:$PATH"
