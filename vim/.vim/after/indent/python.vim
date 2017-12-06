@@ -1,6 +1,6 @@
 set tabstop=4
 set shiftwidth=4
-set noexpandtab
+set expandtab
 set noautoindent
 set nosmartindent
 set nocindent
