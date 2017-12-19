@@ -3,7 +3,7 @@
 	<menu id="root-menu" label="Openbox 3">
 		<item label="Terminal Emulator">
 			<action name="Execute">
-				<execute>urxvtc</execute>
+				<execute>urxvt</execute>
 			</action>
 		</item>
 		<item label="Firefox">
