@@ -20,7 +20,7 @@
 feh --bg-fill ~/pictures/wallpaper/feet.jpg
 #feh --randomize --bg-fill ~/pictures/wallpaper/ 
 tint2 &
-urxvtd &
+#urxvtd &
 pnmixer &
 xset -dpms && xset s off
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &

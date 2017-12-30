@@ -393,12 +393,12 @@
     <!-- Keybindings for running applications -->
     <keybind key="A-t">
       <action name="Execute">
-        <command>urxvtc</command>
+        <command>urxvt</command>
       </action>
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>urxvtc</command>
+        <command>urxvt</command>
       </action>
     </keybind>
     <keybind key="A-w">
