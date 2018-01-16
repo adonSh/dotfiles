@@ -391,29 +391,14 @@
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
-    <keybind key="A-t">
-      <action name="Execute">
-        <command>urxvt</command>
-      </action>
-    </keybind>
     <keybind key="W-t">
       <action name="Execute">
         <command>urxvt</command>
       </action>
     </keybind>
-    <keybind key="A-w">
-      <action name="Execute">
-        <command>firefox</command>
-      </action>
-    </keybind>
     <keybind key="W-w">
       <action name="Execute">
         <command>firefox</command>
-      </action>
-    </keybind>
-    <keybind key="A-n">
-      <action name="Execute">
-        <command>google-chrome</command>
       </action>
     </keybind>
     <keybind key="W-n">
