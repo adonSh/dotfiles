@@ -40,3 +40,4 @@ endif
 augroup terminal
   autocmd TermOpen * setlocal nospell
 augroup end
+command Make silent make | redraw!

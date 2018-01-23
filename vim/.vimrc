@@ -15,11 +15,19 @@ set nohlsearch             " does not highlight words in a search
 set splitright             " opens vsplit buffers to right of current buffer
 set splitbelow             " opens hsplit buffers below current buffer
 set colorcolumn=81         " highlights characters after 80 columns
+set laststatus=1           " only show status bar when multiple windows are open
+set ruler                  " show line, column number in status bar
+set directory=.            " keep .swp files in working directory
+hi texError ctermbg=white  " gets rid of erroneous syntax errors in latex
+                           " (^ probably a bad idea really)
+hi SpellBad ctermbg=70     " pink highlighting for misspelled words
+hi SpellCap ctermbg=43     " blue highlighting for mis-capitalized words
+hi ColorColumn ctermbg=74  " visible ColorColumn
 "set spell spelllang=en_us " spellchecker
 "set background=dark
 
 " INDENTATION RULES
-filetype indent on          " rules in ~/.vim/indent
+filetype indent on          " rules in ~/.vim/after/indent
 set tabstop=8               " how many spaces is a tab
 set shiftwidth=8            " how far to shift text with < & >
 set noexpandtab             " tabs not spaces
@@ -28,8 +36,6 @@ set nocindent               " dumb
 set nosmartindent           " stuff!
 
 " FANCY STUFF
-"autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-                            " ^ disables auto-commenting (?)
 command Make silent make | redraw!
 " jumps to the last position when reopening a file
 if has("autocmd")
