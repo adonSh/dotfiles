@@ -291,6 +291,25 @@
     <keybind key="W-m">
       <action name="ToggleMaximize"/>
     </keybind>
+    <keybind key="W-A-l">
+      <action name="MoveResizeTo">
+        <x>880</x>
+        <y>0</y>
+        <height>740</height>
+      </action>
+    </keybind>
+    <keybind key="W-A-h">
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <height>740</height>
+      </action>
+    </keybind>
+    <keybind key="W-b">
+      <action name="MoveResizeTo">
+        <height>340</height>
+      </action>
+    </keybind>
     <keybind key="W-x">
       <action name="MoveResizeTo">
         <x>center</x>
