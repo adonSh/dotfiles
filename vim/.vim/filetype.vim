@@ -3,5 +3,5 @@
 " Lilypond
 au BufNewFile,BufRead *.ly	setf lilypond
 
-"ImpCore
+" ImpCore
 au BufNewFile,BufRead *.imp	setf scheme
