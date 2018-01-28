@@ -4,7 +4,7 @@
 
 " This line should not be removed as it ensures that various options are
 " properly set to work with the Vim-related packages available in Debian.
-runtime! debian.vim
+"runtime! debian.vim
 
 " BASIC CONFIG
 set nocompatible           " vim not vi
@@ -18,6 +18,7 @@ set colorcolumn=81         " highlights characters after 80 columns
 set laststatus=1           " only show status bar when multiple windows are open
 set ruler                  " show line, column number in status bar
 set mouse-=a               " disable visual mode with the mouse
+set formatoptions-=cro     " no auto-commenting
 set directory=.            " keep .swp files in working directory
 hi texError ctermbg=white  " gets rid of erroneous syntax errors in latex
                            " (^ probably a bad idea really)
