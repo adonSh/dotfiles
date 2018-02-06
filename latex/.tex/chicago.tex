@@ -1,0 +1,48 @@
+% Chicago-style Paper
+\documentclass[12pt,titlepage]{article}
+\title{title}
+\author{}
+\date{\today}
+
+% formatting
+\usepackage{setspace}
+\usepackage{times}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage[center]{titlesec}
+\usepackage{csquotes}
+\geometry{margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{14.5pt}
+
+\begin{document}
+%\maketitle
+\begin{doublespace}
+\noindent Name\\
+          Course\\
+          Assignment\\
+          something else
+          \begin{center}title\end{center}
+
+
+
+\end{doublespace}
+
+% bibliography formatting
+\def\bibindent{3em}
+\renewcommand{\refname}{Bibliography}
+\makeatletter
+\renewcommand\@biblabel[1]{}
+\let\old@biblabel\@biblabel
+\def\@biblabel#1{\old@biblabel{#1}\kern\bibindent}
+\let\old@bibitem\bibitem
+\def\bibitem#1{\old@bibitem{#1}\leavevmode\kern-\bibindent}
+\makeatother
+\newpage
+\begin{thebibliography}{9\kern\bibindent}
+
+\end{thebibliography}
+\end{document}

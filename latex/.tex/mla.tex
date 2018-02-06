@@ -1,0 +1,49 @@
+% MLA-style Paper
+\documentclass[12pt]{article}
+\title{\vspace{-1in}title}
+\author{}
+\date{\today}
+
+% formatting (MLA)
+\setlength{\parindent}{3em}
+\linespread{1.6}
+\usepackage{indentfirst}
+\usepackage{times}
+\usepackage{csquotes}
+\usepackage[center]{titlesec}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\geometry{margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Name \thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{14.5pt}
+\titleformat*{\section}{\normalfont\normalsize\centering}
+\titlespacing*{\section}{0pt}{0pt}{0pt}
+
+% bibliography formatting
+\def\bibindent{3em}
+\renewcommand{\refname}{Works Cited}
+\makeatletter
+\renewcommand\@biblabel[1]{}
+\let\old@biblabel\@biblabel
+\def\@biblabel#1{\old@biblabel{#1}\kern\bibindent}
+\let\old@bibitem\bibitem
+\def\bibitem#1{\old@bibitem{#1}\leavevmode\kern-\bibindent}
+\makeatother
+
+\begin{document}
+\noindent Name\\
+          Professor\\
+          Course\\
+          \today
+%          \begin{center}title\end{center}
+          \section*{title}
+
+\newpage
+\begin{thebibliography}{9\kern\bibindent}
+\itemsep0em
+
+\end{thebibliography}
+\end{document}
