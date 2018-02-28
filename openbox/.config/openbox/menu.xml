@@ -28,8 +28,60 @@
 			</action>
 		</item>
 		<separator/>
+		<!-- This menu requires the presence of the 'menu' package to work -->
 		<menu id="/Debian"/>
-		<!-- This requires the presence of the 'menu' package to work -->
+		<menu id="root-menu-48210" label="New Menu">
+			<menu id="root-menu-48210-1" label="Audio">
+        <item label="Ardour">
+          <action name="execute">
+            <execute>ardour5</execute>
+          </action>
+        </item>
+        <item label="QjackCtl">
+          <action name="execute">
+            <execute>qjackctl</execute>
+          </action>
+        </item>
+			</menu>
+      <menu id="net" label="Network">
+        <item label="Transmission">
+          <action name="execute">
+            <execute>transmission-gtk</execute>
+          </action>
+        </item>
+			</menu>
+      <menu id="office" label="Office">
+        <item label="Word">
+          <action name="execute">
+            <execute>lowriter</execute>
+          </action>
+        </item>
+        <item label="Powerpoint">
+          <action name="execute">
+            <execute>loimpress</execute>
+          </action>
+        </item>
+        <item label="Excel">
+          <action name="execute">
+            <execute>localc</execute>
+          </action>
+        </item>
+			</menu>
+      <menu id="terms" label="Terminal Emulators">
+        <item label="urxvt">
+          <action name="execute">
+            <execute>urxvt</execute>
+          </action>
+        </item>
+			</menu>
+      <menu id="graphics" label="Graphics">
+        <item label="Gimp">
+          <action name="execute">
+            <execute>gimp</execute>
+          </action>
+        </item>
+			</menu>
+		</menu>
 		<menu id="root-menu-361340" label="Games">
 			<item label="Age of Mythology">
 				<action name="Execute">
