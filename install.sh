@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ALL="bash bspwm conky latex mpd ncmpcpp neovim openbox tint2 tmux vim X"
+ALL="bash bspwm conky latex less mpd ncmpcpp neovim openbox tint2 tmux vim X"
 
 # check for stow
 command -v stow > /dev/null ||
