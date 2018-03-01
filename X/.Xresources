@@ -9,6 +9,9 @@ URxvt*background:       white
 URxvt*foreground:       black
 URxvt*iso14755:         false
 URxvt*font:             fixed
+!URxvt*font:             xft:Px437 IBM PS/2thin4:antialias=false
+!URxvt*font:             xft:terminus
+
 ! URxvt*termName:                       string
 ! URxvt*geometry:                       geometry
 ! URxvt*chdir:                          string
