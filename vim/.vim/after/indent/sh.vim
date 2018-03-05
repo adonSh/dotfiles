@@ -1,7 +1,7 @@
-set tabstop=2
-set shiftwidth=2
-set expandtab
-set noautoindent
-set nosmartindent
-set nocindent
-set indentexpr=
+setlocal tabstop=2
+setlocal shiftwidth=2
+setlocal expandtab
+setlocal noautoindent
+setlocal nosmartindent
+setlocal nocindent
+setlocal indentexpr=
