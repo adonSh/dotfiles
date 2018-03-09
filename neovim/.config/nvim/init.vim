@@ -27,7 +27,7 @@ hi ColorColumn ctermbg=74  " visible ColorColumn
 filetype indent on          " custom indentation rules
 set tabstop=8               " how many spaces is a tab
 set shiftwidth=8            " how far to shift text with < & >
-set noexpandtab             " tabs not spaces
+set expandtab               " spaces not tabs
 set noautoindent            " no
 set nocindent               " dumb
 set nosmartindent           " stuff!
@@ -41,4 +41,4 @@ endif
 augroup terminal
   autocmd TermOpen * setlocal nospell
 augroup end
-command Make silent make | redraw!
+command Make silent make | redraw! | cw
