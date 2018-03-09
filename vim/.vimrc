@@ -31,13 +31,13 @@ hi ColorColumn ctermbg=74  " visible ColorColumn
 filetype indent on          " rules in ~/.vim/after/indent
 set tabstop=8               " how many spaces is a tab
 set shiftwidth=8            " how far to shift text with < & >
-set noexpandtab             " tabs not spaces
+set expandtab               " spaces not tabs
 set noautoindent            " no
 set nocindent               " dumb
 set nosmartindent           " stuff!
 
 " FANCY STUFF
-command Make silent make | redraw!
+command Make silent make | redraw! | cw
 " jumps to the last position when reopening a file
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
