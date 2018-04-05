@@ -6,6 +6,9 @@
 super + Return
 	urxvt
 
+super + w
+	firefox
+
 # program launcher
 super + space
 	dmenu_run

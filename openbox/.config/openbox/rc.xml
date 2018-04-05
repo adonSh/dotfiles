@@ -415,6 +415,11 @@
         <command>urxvt</command>
       </action>
     </keybind>
+    <keybind key="W-A-t">
+      <action name="Execute">
+        <command>urxvt -e tmux -2</command>
+      </action>
+    </keybind>
     <keybind key="W-w">
       <action name="Execute">
         <command>firefox</command>
@@ -844,6 +849,9 @@
       <decor>no</decor>
     </application>
     <application class="URxvt">
+      <decor>no</decor>
+    </application>
+    <application class="stterm-256color">
       <decor>no</decor>
     </application>
     <!--

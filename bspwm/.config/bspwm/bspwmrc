@@ -1,8 +1,14 @@
 #! /bin/sh
 
+feh --bg-fill ~/pictures/wallpaper/feet.jpg
+setxkbmap -option caps:none
 sxhkd &
+tint2 &
+pnmixer &
+conky -c ~/.config/conky/cpus &
+conky -c ~/.config/conky/mpd &
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor -d I II III IV
 
 bspc config border_width         2
 bspc config window_gap          12
