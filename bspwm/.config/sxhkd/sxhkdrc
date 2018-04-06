@@ -9,6 +9,9 @@ super + Return
 super + w
 	firefox
 
+super + n
+	google-chrome
+
 # program launcher
 super + space
 	dmenu_run
