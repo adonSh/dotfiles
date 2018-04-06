@@ -3,9 +3,9 @@
 feh --bg-fill ~/pictures/wallpaper/feet.jpg
 setxkbmap -option caps:none
 sxhkd &
-tint2 &
-pnmixer &
-wicd-gtk -t &
+#tint2 &
+#pnmixer &
+#wicd-gtk -t &
 conky -c ~/.config/conky/cpus &
 conky -c ~/.config/conky/mpd &
 
