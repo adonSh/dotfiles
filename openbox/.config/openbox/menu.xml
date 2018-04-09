@@ -30,7 +30,7 @@
 		<separator/>
 		<!-- This menu requires the presence of the 'menu' package to work -->
 		<menu id="/Debian"/>
-		<menu id="root-menu-48210" label="New Menu">
+<!--		<menu id="root-menu-48210" label="New Menu">
 			<menu id="root-menu-48210-1" label="Audio">
         <item label="Ardour">
           <action name="execute">
@@ -81,7 +81,7 @@
           </action>
         </item>
 			</menu>
-		</menu>
+		</menu> -->
 		<menu id="root-menu-361340" label="Games">
 			<item label="Age of Mythology">
 				<action name="Execute">
