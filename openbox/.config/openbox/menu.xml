@@ -21,6 +21,11 @@
 				<execute>spotify</execute>
 			</action>
 		</item>
+    <item label="Android Studio">
+      <action name="execute">
+        <execute>android-studio</execute>
+      </action>
+    </item>
 		<separator/>
 		<item label="Shuffle Music">
 			<action name="Execute">
