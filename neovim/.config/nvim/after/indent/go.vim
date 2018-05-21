@@ -1,5 +1,5 @@
-setlocal tabstop=8
-setlocal shiftwidth=8
+setlocal tabstop=4
+setlocal shiftwidth=4
 setlocal noexpandtab
 setlocal noautoindent
 setlocal nosmartindent
