@@ -28,5 +28,6 @@ fi
 PATH="$PATH:/sbin:/usr/sbin:/usr/local/sbin"
 #MANPATH="$MANPATH:$HOME/.local/share/man"
 XDG_CONFIG_HOME="$HOME/.config"
+GOPATH="$HOME/code/golang"
 set -o vi
 PS1='\u@\h:\w\$ '
