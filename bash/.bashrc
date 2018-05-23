@@ -112,6 +112,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# PATHS
+#export PATH="$PATH:/sbin:/usr/sbin:/usr/local/sbin"
+#MANPATH="$MANPATH:$HOME/.local/share/man"
+export XDG_CONFIG_HOME="$HOME/.config"
+export GOPATH="$HOME/code/golang"
+
 # EXTRAS
 set -o vi
 PS1='\342\224\214\u:\w\$\n\342\225\260'
