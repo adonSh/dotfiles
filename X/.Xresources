@@ -12,6 +12,8 @@ URxvt*font:             fixed
 !URxvt*font:             xft:Px437 IBM PS/2thin4:antialias=false
 !URxvt*font:              xft:terminus
 
+!#include "xresources/Xresources.light"
+
 !! OPTIONS
 ! URxvt*termName:                       string
 ! URxvt*geometry:                       geometry
