@@ -11,3 +11,6 @@ au BufNewFile,BufRead *.swift    setf swift
 
 " Kotlin
 au BufNewFile,BufRead *.kt,*.kts setf kotlin
+
+" TypeScript
+au BufNewFile,BufRead *.ts       setf typescript
