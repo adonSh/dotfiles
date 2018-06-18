@@ -93,6 +93,11 @@
 					<execute>wine /home/adon/.wine/drive_c/Program\ Files/Microsoft\ Games/Age\ of\ Mythology/aom.exe +noIntroCinematics</execute>
 				</action>
 			</item>
+      <item label="Minecraft">
+        <action name="Execute">
+          <execute>java -jar /home/adon/downloads/games/Minecraft.jar</execute>
+        </action>
+      </item>
 			<item label="CODT">
 				<action name="Execute">
 					<execute>codt</execute>
