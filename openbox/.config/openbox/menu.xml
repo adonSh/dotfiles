@@ -26,6 +26,11 @@
         <execute>android-studio</execute>
       </action>
     </item>
+    <item label="Slack">
+      <action name="Execute">
+        <execute>slack</execute>
+      </action>
+    </item>
 		<separator/>
 		<item label="Shuffle Music">
 			<action name="Execute">
