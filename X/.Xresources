@@ -10,7 +10,14 @@ URxvt*foreground:       black
 URxvt*iso14755:         false
 URxvt*font:             fixed
 !URxvt*font:             xft:Px437 IBM PS/2thin4:antialias=false
-!URxvt*font:              xft:terminus
+!URxvt*font:             xft:terminus
+
+!! TABS 
+!URxvt.perl-ext-common:  tabbed
+!URxvt.tabbed.tabbar-fg: 0
+!URxvt.tabbed.tabbar-bg: 15
+!URxvt.tabbed.tab-fg:    1
+!URxvt.tabbed.tab-bg:    -1
 
 !#include "xresources/Xresources.light"
 
