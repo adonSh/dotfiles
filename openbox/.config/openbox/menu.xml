@@ -103,6 +103,11 @@
           <execute>java -jar /home/adon/downloads/games/Minecraft.jar</execute>
         </action>
       </item>
+      <item label="Runescape">
+        <action name="Execute">
+          <execute>java -jar /home/adon/downloads/games/RuneLite.jar</execute>
+        </action>
+      </item>
 			<item label="CODT">
 				<action name="Execute">
 					<execute>codt</execute>
