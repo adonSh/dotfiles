@@ -7,6 +7,7 @@ set nocompatible           " vim not vi
 set showcmd                " Show (partial) command in status line.
 syntax on                  " syntax highlighting
 set nowrap                 " does not wrap lines longer than 80 characters
+set nobackup               " doesn't keep .backup~ files
 set nohlsearch             " does not highlight words in a search
 set splitright             " opens vsplit buffers to right of current buffer
 set splitbelow             " opens hsplit buffers below current buffer
