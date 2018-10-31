@@ -122,3 +122,7 @@ export GOPATH="$HOME/code/golang"
 set -o vi
 PS1='\342\224\214\u:\w\$\n\342\225\260'
 #xrdb -merge /home/adon/.Xresources
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/adon/.sdkman"
+[[ -s "/home/adon/.sdkman/bin/sdkman-init.sh" ]] && source "/home/adon/.sdkman/bin/sdkman-init.sh"
