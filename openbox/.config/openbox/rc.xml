@@ -452,7 +452,7 @@
     </keybind>
     <keybind key="A-s">
       <action name="Execute">
-        <command>ashuffle</command>
+        <command>ashuffle --queue_buffer 1</command>
       </action>
     </keybind>
     <keybind key="A-r">
@@ -867,6 +867,9 @@
       <decor>no</decor>
     </application>
     <application class="stterm-256color">
+      <decor>no</decor>
+    </application>
+    <application class="Zathura">
       <decor>no</decor>
     </application>
     <!--
