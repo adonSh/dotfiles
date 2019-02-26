@@ -452,7 +452,7 @@
     </keybind>
     <keybind key="A-s">
       <action name="Execute">
-        <command>ashuffle --queue_buffer 1</command>
+        <command>ashuffle</command>
       </action>
     </keybind>
     <keybind key="A-r">
