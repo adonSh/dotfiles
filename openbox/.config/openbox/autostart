@@ -28,5 +28,6 @@ xflux -z 02155 > ~/.xflux
 sleep 5s && conky -c $HOME/.config/conky/cpus &
 sleep 9s && conky -c $HOME/.config/conky/mpd &
 setxkbmap -option caps:none 
+compton --config /dev/null --backend glx --vsync opengl-mswc &
 #notify-send "$(cat ~/.xflux)"
 #date >> ~/.xflux
