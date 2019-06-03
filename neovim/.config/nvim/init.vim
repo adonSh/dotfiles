@@ -22,7 +22,7 @@ hi SpellBad ctermbg=70     " pink highlighting for misspelled words
 hi SpellCap ctermbg=43     " blue highlighting for mis-capitalized words
 hi ColorColumn ctermbg=74  " visible ColorColumn
 "set spell spelllang=en_us " spellchecker
-"set background=dark
+set background=light
 
 " INDENTATION RULES
 filetype indent on          " custom indentation rules
