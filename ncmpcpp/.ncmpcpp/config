@@ -512,7 +512,9 @@ color1 = black
 #
 color2 = green
 #
-main_window_highlight_color = yellow
+#main_window_highlight_color = yellow
+current_item_prefix = "$(yellow)$r"
+current_item_suffix = "$/r$(end)"
 #
 progressbar_color = black
 #
@@ -522,7 +524,9 @@ statusbar_color = default
 #
 alternative_ui_separator_color = black
 #
-active_column_color = red
+#active_column_color = red
+current_item_inactive_column_prefix = "$(red)$r"
+current_item_inactive_column_suffix = "$/r$(end)"
 #
 window_border_color = green
 #

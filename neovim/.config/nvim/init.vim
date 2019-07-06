@@ -14,7 +14,6 @@ set splitbelow             " opens hsplit buffers below current buffer
 set colorcolumn=81         " highlights characters after 80 columns
 set laststatus=1           " only show status bar when multiple windows are open
 set ruler                  " show line, column number in status bar
-set directory=.            " keep .swp files in working directory
 set mouse-=a               " disable visual mode with the mouse
 hi texError ctermbg=white  " gets rid of erroneous syntax errors in latex
                            " (^ probably a bad idea really)
